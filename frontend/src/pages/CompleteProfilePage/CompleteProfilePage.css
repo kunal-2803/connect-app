@@ -1,0 +1,192 @@
+.complete-profile-page {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    color: #333;
+  }
+  
+  .complete-profile-page h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  .complete-profile-page .sub-heading {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+  }
+  
+  .steps-indicator {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.1em;
+    color: #777;
+  }
+  
+  .steps-indicator .active {
+    font-weight: bold;
+    color: #f0a500; /* Accent color */
+  }
+  
+  .profile-form .form-group,
+  .profile-form fieldset.form-group {
+    margin-bottom: 20px;
+  }
+  
+  .profile-form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #444;
+  }
+  
+  .profile-form input[type="text"],
+  .profile-form input[type="number"],
+  .profile-form input[type="email"], /* If any */
+  .profile-form select,
+  .profile-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  .profile-form input[type="number"]::-webkit-inner-spin-button,
+  .profile-form input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+  }
+  .profile-form input[type="number"] {
+      -moz-appearance: textfield;
+  }
+  
+  
+  .profile-form textarea {
+    resize: vertical;
+    min-height: 80px;
+  }
+  
+  .profile-form fieldset.form-group {
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 4px;
+  }
+  .profile-form fieldset.form-group legend {
+      font-weight: bold;
+      padding: 0 10px;
+      color: #444;
+  }
+  .profile-form .info-text {
+      font-size: 0.9em;
+      color: #666;
+      margin-bottom: 10px;
+  }
+  
+  
+  .profile-form button[type="submit"],
+  .profile-form .back-button {
+    background-color: #f0a500; /* Accent color */
+    color: #333;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: auto;
+    margin-top: 20px;
+  }
+  .profile-form .back-button {
+      background-color: #6c757d;
+      color: white;
+      margin-right: 10px;
+      display: inline-block;
+  }
+  
+  
+  .profile-form button[type="submit"]:hover {
+    background-color: #d48f00;
+  }
+  .profile-form .back-button:hover {
+      background-color: #5a6268;
+  }
+  
+  .profile-form button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .verification-instructions {
+    background-color: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+  }
+  .verification-instructions h4 {
+    margin-top: 0;
+    color: #333;
+  }
+  .verification-instructions ul {
+    padding-left: 20px;
+    margin-bottom: 0;
+  }
+  .verification-instructions li {
+    margin-bottom: 8px;
+    color: #555;
+  }
+  .verification-instructions strong {
+      color: #222;
+  }
+  
+  .image-previews {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .image-previews img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .error-messages {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+  }
+  .error-messages p {
+    margin: 0 0 5px 0;
+  }
+  .error-messages p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .loading, .status-message {
+      text-align: center;
+      padding: 50px 20px;
+      font-size: 1.2em;
+      color: #555;
+  }
+  .status-message h2 {
+      color: #333;
+      margin-bottom: 15px;
+  }
+  .status-message p {
+      margin-bottom: 10px;
+      line-height: 1.6;
+  }

@@ -1,0 +1,49 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f0a500; /* A warm accent color */
+    text-decoration: none;
+  }
+  
+  .navbar-auth-buttons .navbar-button {
+    background-color: #f0a500;
+    color: #333;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar-auth-buttons .navbar-button:hover {
+    background-color: #d48f00;
+  }
+  
+  .navbar-auth-buttons .signup-button {
+    background-color: #e07a5f; /* A different color for signup */
+    color: white;
+  }
+  .navbar-auth-buttons .signup-button:hover {
+    background-color: #c9674f;
+  }
+  
+  .navbar-welcome {
+    margin-right: 1rem;
+    font-size: 0.9rem;
+  }
+  .navbar-unverified {
+    color: #ffcc00;
+    font-size: 0.8rem;
+    margin-left: 5px;
+  }
